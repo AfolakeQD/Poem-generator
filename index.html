@@ -7,7 +7,10 @@
     <title>AI Poem Generator</title>
 </head>
 <body>
-  <header>Welcome to the AI poem generator!</header> 
+  <div class="container">
+  <header>
+    <h1>Welcome to the AI poem generator!</h1>
+  </header> 
    
   <main>
     <form>
@@ -17,9 +20,11 @@
           autofocus
           required
           autocomplete="off"
+          class="instructions"
    />
-    <input type="submit" />
+    <input type="submit" class="submit-botton" />
    </form>
+   <div class="poem">
 God is king, but life is a trend
 </br>
 to take the bitter and the sweet
@@ -27,6 +32,7 @@ to take the bitter and the sweet
 adrenaline battles on to the end.
 </br>
 Be victorious even in defeat.
+</div>
   </main>
    
   
@@ -36,6 +42,7 @@ Be victorious even in defeat.
     <a href="https://github.com/AfolakeQD/Poem-generator/" target="_blank">open sourced on GitHub</a> and is
     <a href="https://vercel.com/afolakeqds-projects/poem-generator" target="_blank">hosted on vercel</a>
    </footer>
+  </div>
    <script src="src/script.js"></script>
 </body>
 </html>
